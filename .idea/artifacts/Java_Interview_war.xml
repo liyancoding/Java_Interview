@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Java_Interview:war">
+    <output-path>$PROJECT_DIR$/../Java_Interview/target</output-path>
+    <root id="archive" name="Java_Interview.war">
+      <element id="artifact" artifact-name="Java_Interview:war exploded" />
+    </root>
+  </artifact>
+</component>
