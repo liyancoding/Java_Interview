@@ -2,6 +2,11 @@ package com.ly.八大排序;
 
 import org.apache.tools.ant.taskdefs.optional.jsp.WLJspc;
 
+import java.sql.Time;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
+
 /**
  * @Author: liyan
  * @Description: 快速排序
@@ -97,7 +102,7 @@ public class FastSort {
     }
     
     public static void main(String[] args){
-        int[] a = new int[]{2, 7, 4, 5, 10, 1, 9, 3, 8, 6};
+        int[] a = {2, 7, 4, 5, 10, 1, 9, 3, 8, 6};
 
         int[] b = {34, 3, 53, 2, 23, 7, 14, 10};
 
@@ -116,5 +121,6 @@ public class FastSort {
         for (int arr : b) {
             System.out.print(arr + "\t");
         }
+
     }
 }
