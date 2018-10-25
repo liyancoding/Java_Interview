@@ -13,15 +13,23 @@ public class AiLeQi_Test2 {
         int[] nums={1,2,3,4,5,6,4,3,2,45,3};
         int n=3;
 
-        // System.out.println(Arrays.toString(nums));
+//        System.out.println(Arrays.toString(nums));
         int index=0;
         for (int i = 0; i < nums.length; i++) {
             if(nums[i]!=n){
                 nums[index]=nums[i];
-                ++index;
+                index++;
             }
         }
+
+        for (int i = 0; i < index; i++) {
+            System.out.print(nums[i] + " ");
+        }
+
+        System.out.println();
         System.out.println(index);
         System.out.println(Arrays.toString(nums));
     }
 }
+
+
